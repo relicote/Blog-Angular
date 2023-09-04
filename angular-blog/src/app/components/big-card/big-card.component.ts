@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-big-card',
@@ -6,6 +6,13 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./big-card.component.css']
 })
 export class BigCardComponent implements OnInit {
+
+    @Input()
+    photoCover: String = '';
+    @Input()
+    cardTitle: String = 'NOVO JOESTAR ANUNCIADO (SPOILER)';
+    @Input()
+    cardDescription: string = 'O novo Jojo já tem nome e aparencia, venha conferir em primeira mão!'
 
   constructor() { }
 
