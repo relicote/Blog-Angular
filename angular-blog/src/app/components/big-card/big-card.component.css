@@ -1,5 +1,7 @@
 .container_big-card{
-  border: solid white 2px;
+  /* border: solid white 2px; */
+  margin-left: 20px;
+  margin-right: 20px;
   width: 400px;
   height: 500px;
 
@@ -10,12 +12,20 @@
 }
 
 .big-card_title > h1{
-  font-size: 25px;
+  font-size: 22px;
   margin-top: 15px;
 }
 
-.big-card_description > p{
-  margin-top: 10px;
+.big-card_description{
+  margin-top: 20px;
+}
+
+.big-card_description > p > a{
   color: grey;
+}
+
+.big-card_photo > img{
+  width: 100%;
+  min-width: 400px;
 }
 
