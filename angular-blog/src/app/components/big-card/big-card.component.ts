@@ -10,9 +10,9 @@ export class BigCardComponent implements OnInit {
     @Input()
     photoCover: String = '';
     @Input()
-    cardTitle: String = 'NOVO JOESTAR ANUNCIADO (SPOILER)';
+    cardTitle: String = '';
     @Input()
-    cardDescription: string = 'O novo Jojo já tem nome e aparencia, venha conferir em primeira mão!'
+    cardDescription: string = ''
 
   constructor() { }
 
